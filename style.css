@@ -129,6 +129,16 @@ header ul a {
     width: 240px;
     background-color: #2200493d;
     box-shadow: 0 0 5pc #727fde88;
+    border-radius: 50px;
+}
+
+.hero-info h1{
+    font-size: 50px;
+    max-width: 600px;
+    font-weight: 700;
+    line-height: 70px;
+    margin-top: 40px;
+    margin-bottom: 30px;
 }
 
 
