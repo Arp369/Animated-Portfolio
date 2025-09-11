@@ -609,7 +609,53 @@ header ul a {
     filter: grayscale(0);
 }
 
+/* Contact Section */
 
+.contact-section{
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    position: relative;
+}
+
+.contact-section h1{
+    position: absolute;
+    top: 10%;
+    left: 40%;
+}
+
+.social-box{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.social-box a{
+    color: lightgray;
+    text-decoration: none;
+    font-size: 20px;
+    text-wrap: nowrap;
+}
+
+.social-box i{
+    color: #727fde;
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.social-icon a i{
+    color: white;
+    margin-top: 40px;
+}
+
+.contact-box p{
+    max-width: 400px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
 
 
 
